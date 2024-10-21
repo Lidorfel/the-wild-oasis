@@ -2,7 +2,25 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <!-- Default favicon (for browsers that don't support media queries in link tags) -->
+    <link rel="icon" type="image/png" href="/logo-light.png" />
+
+    <!-- Light mode favicon -->
+    <link
+      rel="icon"
+      type="image/png"
+      href="/logo-light.png"
+      media="(prefers-color-scheme: light)"
+    />
+
+    <!-- Dark mode favicon -->
+    <link
+      rel="icon"
+      type="image/png"
+      href="/logo-dark.png"
+      media="(prefers-color-scheme: dark)"
+    />
+    <!-- <link rel="shortcut icon" type="image/png" href="/logo-light.png" /> -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
