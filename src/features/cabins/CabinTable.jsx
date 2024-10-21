@@ -12,7 +12,6 @@ export default function CabinTable() {
   if (isLoading) return <Spinner />;
   if (!cabins.length) return <Empty resourceName="cabins" />;
   const filterValue = searchParams.get("discount") || "all";
-  console.log(cabins);
   let filteredCabins;
   //1) Filter
 
